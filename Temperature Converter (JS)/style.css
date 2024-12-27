@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ffffff;
+    /* White background for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    /* Teal color for the heading */
+}
+
+label {
+    color: #555;
+    /* Dark gray for labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00796b;
+    /* Teal border */
+    border-radius: 5px;
+}
+
+.radio-buttons {
+    margin: 10px 0;
+}
+
+.radio-buttons input {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #00796b;
+    /* Teal button */
+    color: white;
+    /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+    /* Darker teal on hover */
+}
+
+#result {
+    margin-top: 15px;
+    color: #d32f2f;
+    /* Red color for result text */
+    font-weight: bold;
+}
